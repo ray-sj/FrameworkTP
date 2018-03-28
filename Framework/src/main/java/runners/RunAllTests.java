@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 import junit.framework.TestCase;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "src/test/resources/features",
+@CucumberOptions(features= "src/test/java/resources/features",
 				plugin = {"pretty", "html:target/cucumber"},
 				glue = "stepdefs",
 				tags = {"@wip"})
